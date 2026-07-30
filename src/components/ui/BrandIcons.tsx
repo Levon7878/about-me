@@ -2,10 +2,6 @@ import type { SVGProps } from "react";
 
 type IconProps = SVGProps<SVGSVGElement>;
 
-/**
- * Brand icons are not part of lucide-react (v1 removed them), so we provide
- * lightweight, accessible inline SVGs with a matching API (`className`, size).
- */
 const baseProps = {
   viewBox: "0 0 24 24",
   width: "1em",

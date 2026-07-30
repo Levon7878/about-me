@@ -12,7 +12,6 @@ import type { Experience as ExperienceType } from "@/types";
 function TimelineItem({ item }: { item: ExperienceType }) {
   return (
     <motion.li variants={fadeInUp} className="relative pl-10 sm:pl-14">
-      {/* Node */}
       <span className="absolute left-0 top-1 grid size-8 place-items-center rounded-full border border-border bg-surface text-primary sm:size-10">
         <Briefcase className="size-4" />
       </span>

@@ -5,7 +5,6 @@ interface LogoProps {
   onClick?: () => void;
 }
 
-/** Wordmark that links back to the top of the page. */
 export function Logo({ className, onClick }: LogoProps) {
   return (
     <a

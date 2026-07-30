@@ -1,6 +1,3 @@
-/**
- * Centralised site configuration used for SEO, metadata and structured data.
- */
 export const siteConfig = {
   name: "Levon Babagulyan",
   title: "Levon Babagulyan — Frontend Developer",

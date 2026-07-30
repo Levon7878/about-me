@@ -4,7 +4,6 @@ import { cn } from "@/lib/cn";
 interface CardProps {
   children: ReactNode;
   className?: string;
-  /** Adds a subtle hover lift + border highlight for interactive cards. */
   interactive?: boolean;
 }
 

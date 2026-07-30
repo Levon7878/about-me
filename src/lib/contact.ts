@@ -2,20 +2,11 @@ export interface ContactFormValues {
   name: string;
   email: string;
   message: string;
-  /** Honeypot field — must stay empty. Bots tend to fill every input. */
   botcheck?: string;
 }
 
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
-/**
- * Sends the contact form to the owner's inbox via Web3Forms — a no-backend
- * email delivery service. The access key is public by design (it only maps
- * to a destination email), so it lives in a NEXT_PUBLIC_ env var.
- *
- * Setup: create a free key at https://web3forms.com using the destination
- * email, then set NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY in `.env.local`.
- */
 export async function submitContactForm(
   values: ContactFormValues,
 ): Promise<{ ok: true }> {
@@ -27,7 +18,6 @@ export async function submitContactForm(
     );
   }
 
-  // Silently accept spam bots that fill the honeypot — no email is sent.
   if (values.botcheck) {
     return { ok: true };
   }

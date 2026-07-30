@@ -13,7 +13,6 @@ interface UIState {
 
 const STORAGE_KEY = "portfolio-theme";
 
-/** Apply the theme to the document and persist the choice. */
 function applyTheme(theme: Theme) {
   if (typeof document === "undefined") return;
   document.documentElement.classList.toggle("dark", theme === "dark");
@@ -21,7 +20,6 @@ function applyTheme(theme: Theme) {
   try {
     localStorage.setItem(STORAGE_KEY, theme);
   } catch {
-    /* storage may be unavailable (private mode) — non fatal */
   }
 }
 

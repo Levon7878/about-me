@@ -12,7 +12,6 @@ interface SectionHeadingProps {
   className?: string;
 }
 
-/** Consistent heading block used at the top of every section. */
 export function SectionHeading({
   eyebrow,
   title,

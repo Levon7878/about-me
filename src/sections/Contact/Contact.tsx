@@ -27,7 +27,6 @@ export function Contact() {
       />
 
       <div className="mx-auto mt-14 grid max-w-4xl gap-8 lg:grid-cols-5">
-        {/* Contact details */}
         <motion.div
           variants={staggerContainer(0.1)}
           initial="hidden"
@@ -88,7 +87,6 @@ export function Contact() {
           </motion.div>
         </motion.div>
 
-        {/* Form */}
         <motion.form
           variants={fadeInUp}
           initial="hidden"
@@ -98,7 +96,6 @@ export function Contact() {
           noValidate
           className="flex flex-col gap-4 rounded-2xl border border-border bg-surface p-6 sm:p-7 lg:col-span-3"
         >
-          {/* Honeypot: hidden from users, catches spam bots. */}
           <input
             type="text"
             tabIndex={-1}

@@ -4,11 +4,6 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useUIStore, type Theme } from "@/lib/store";
 
-/**
- * App-wide client providers: TanStack Query + theme hydration.
- * The theme is applied pre-paint by an inline script in the layout;
- * here we simply sync the Zustand store with the resolved value.
- */
 export function Providers({ children }: { children: ReactNode }) {
   const [queryClient] = useState(
     () =>

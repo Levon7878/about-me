@@ -20,7 +20,6 @@ function ProjectCard({ project }: { project: Project }) {
         project.featured && "lg:col-span-1",
       )}
     >
-      {/* Gradient sheen on hover */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-br from-primary/5 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"

@@ -10,7 +10,6 @@ interface SectionProps {
   children: ReactNode;
 }
 
-/** A semantic, anchor-targetable page section with consistent vertical rhythm. */
 export function Section({
   id,
   className,

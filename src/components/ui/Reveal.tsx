@@ -12,10 +12,6 @@ interface RevealProps {
   as?: "div" | "li" | "article" | "span";
 }
 
-/**
- * Lightweight scroll-reveal wrapper. Respects `prefers-reduced-motion`
- * automatically via Framer Motion.
- */
 export function Reveal({
   children,
   variants = fadeInUp,

@@ -15,7 +15,6 @@ export const profile: Profile = {
   ],
   availableForWork: true,
   resumeUrl: "/resume.pdf",
-  // Drop a photo in /public and set its path here, e.g. "/levon.jpg".
   avatar: undefined,
 };
 

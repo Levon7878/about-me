@@ -30,7 +30,6 @@ type ButtonProps =
   | ({ as?: "button" } & StyleProps & ButtonHTMLAttributes<HTMLButtonElement>)
   | ({ as: "a" } & StyleProps & AnchorHTMLAttributes<HTMLAnchorElement>);
 
-/** Polymorphic button that renders as `<button>` (default) or `<a>`. */
 export function Button({
   variant = "primary",
   size = "md",

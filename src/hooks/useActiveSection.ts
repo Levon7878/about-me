@@ -2,10 +2,6 @@
 
 import { useEffect, useState } from "react";
 
-/**
- * Tracks which section is currently in view using IntersectionObserver,
- * so the navbar can highlight the active link.
- */
 export function useActiveSection(sectionIds: string[]): string {
   const [activeId, setActiveId] = useState<string>(sectionIds[0] ?? "");
 

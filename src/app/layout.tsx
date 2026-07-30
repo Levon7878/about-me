@@ -38,14 +38,12 @@ export const metadata: Metadata = {
     siteName: `${siteConfig.name} — Portfolio`,
     title: siteConfig.title,
     description: siteConfig.description,
-    // og:image is generated automatically from app/opengraph-image.tsx
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
     creator: siteConfig.twitterHandle,
-    // twitter:image falls back to the generated opengraph-image
   },
   robots: {
     index: true,
@@ -63,7 +61,6 @@ export const viewport: Viewport = {
   colorScheme: "dark light",
 };
 
-// Applies the persisted theme before paint to avoid a flash of the wrong theme.
 const themeScript = `
 (function() {
   try {

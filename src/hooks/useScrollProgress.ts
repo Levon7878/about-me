@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 
-/** Returns page scroll progress from 0 to 1. */
 export function useScrollProgress(): number {
   const [progress, setProgress] = useState(0);
 

@@ -16,7 +16,6 @@ export function Hero() {
       aria-label="Introduction"
       className="relative overflow-hidden pt-28 pb-20 sm:pt-32 lg:pt-40 lg:pb-28"
     >
-      {/* Decorative background */}
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-grid opacity-[0.4] [mask-image:radial-gradient(ellipse_at_center,black,transparent_70%)]" />
         <div className="animate-aurora absolute -top-24 left-1/2 size-[38rem] -translate-x-1/2 rounded-full bg-primary/20 blur-3xl" />
@@ -25,7 +24,6 @@ export function Hero() {
 
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          {/* Content */}
           <motion.div
             variants={staggerContainer(0.12)}
             initial="hidden"
@@ -79,7 +77,13 @@ export function Hero() {
                 Get in touch
               </Button>
               {profile.resumeUrl && (
-                <Button as="a" href={profile.resumeUrl} variant="ghost" size="lg">
+                <Button
+                  as="a"
+                  href={profile.resumeUrl}
+                  download="Levon-Babagulyan-CV.pdf"
+                  variant="ghost"
+                  size="lg"
+                >
                   <Download className="size-4" />
                   Resume
                 </Button>
@@ -99,7 +103,6 @@ export function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Portrait */}
           <motion.div
             variants={scaleIn}
             initial="hidden"
