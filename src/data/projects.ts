@@ -11,4 +11,14 @@ export const projects: Project[] = [
     liveUrl: "https://hexa-verse.vercel.app/",
     repoUrl: "https://github.com/Levon7878/HexaVerse",
   },
+  {
+    id: "medlink",
+    title: "Medlink",
+    description:
+      "A multi-page medical website built with Vue 3 and Tailwind CSS — featuring responsive layouts, Vue Router navigation and a polished UI foundation for healthcare-focused web experiences.",
+    tags: ["Vue.js", "Vue Router", "Tailwind CSS", "Vercel"],
+    featured: true,
+    liveUrl: "https://medlink-seven-tau.vercel.app/",
+    repoUrl: "https://github.com/Levon7878/Medlink",
+  },
 ];
