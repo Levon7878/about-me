@@ -21,4 +21,14 @@ export const projects: Project[] = [
     liveUrl: "https://medlink-seven-tau.vercel.app/",
     repoUrl: "https://github.com/Levon7878/Medlink",
   },
+  {
+    id: "brandaxis",
+    title: "BrandAxis",
+    description:
+      "An AI-assisted Google Ads landing page for a performance and positioning agency — structured around Google Ads landing page best practices with clear value proposition, social proof, strong CTAs and conversion-focused sections.",
+    tags: ["AI", "Google Ads", "Landing Page", "HTML/CSS", "Vercel"],
+    featured: true,
+    liveUrl: "https://brandix-gamma.vercel.app/",
+    repoUrl: "https://github.com/Levon7878/brandix",
+  },
 ];
