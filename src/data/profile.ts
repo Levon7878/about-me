@@ -15,7 +15,7 @@ export const profile: Profile = {
   ],
   availableForWork: true,
   resumeUrl: "/resume.pdf",
-  avatar: undefined,
+  avatar: "/avatar.png",
 };
 
 export const stats: Stat[] = [
