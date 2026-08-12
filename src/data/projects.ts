@@ -31,4 +31,14 @@ export const projects: Project[] = [
     liveUrl: "https://brandix-gamma.vercel.app/",
     repoUrl: "https://github.com/Levon7878/brandix",
   },
+  {
+    id: "enterprise-shop",
+    title: "Enterprise Shop",
+    description:
+      "A premium tech e-commerce storefront with product catalog, category browsing, credit purchase flows, buyer reviews and FAQ — built as a responsive online store experience.",
+    tags: ["React", "TypeScript", "Vite", "E-commerce", "Vercel"],
+    featured: true,
+    liveUrl: "https://enterprise-shop-neon.vercel.app/",
+    repoUrl: "https://github.com/Levon7878/ENTERPRISE-SHOP",
+  },
 ];
