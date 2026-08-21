@@ -43,8 +43,15 @@ export interface SkillGroup {
 export interface Project {
   id: string;
   title: string;
+  /** Short line shown on the card */
+  summary: string;
+  /** Full description shown in the detail view */
   description: string;
   tags: string[];
+  /** Optional screenshot path under /public */
+  preview?: string;
+  /** Accent used for placeholder previews when no image is provided */
+  previewAccent?: string;
   featured?: boolean;
   liveUrl?: string;
   repoUrl?: string;

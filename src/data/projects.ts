@@ -4,9 +4,13 @@ export const projects: Project[] = [
   {
     id: "hexa-verse",
     title: "HexaVerse",
+    summary:
+      "Digital agency website with services, pricing plans and case studies.",
     description:
       "A modern digital agency website showcasing IT services, pricing plans, case studies and client workflows — built with a responsive layout, smooth interactions and a polished marketing-focused UI.",
     tags: ["Vue.js", "Vite", "Responsive Design", "Vercel"],
+    preview: "/projects/hexa-verse.png",
+    previewAccent: "#6d5efc",
     featured: true,
     liveUrl: "https://hexa-verse.vercel.app/",
     repoUrl: "https://github.com/Levon7878/HexaVerse",
@@ -14,9 +18,13 @@ export const projects: Project[] = [
   {
     id: "medlink",
     title: "Medlink",
+    summary:
+      "Multi-page medical website with Vue Router and responsive layouts.",
     description:
       "A multi-page medical website built with Vue 3 and Tailwind CSS — featuring responsive layouts, Vue Router navigation and a polished UI foundation for healthcare-focused web experiences.",
     tags: ["Vue.js", "Vue Router", "Tailwind CSS", "Vercel"],
+    preview: "/projects/medlink.png",
+    previewAccent: "#0ea5e9",
     featured: true,
     liveUrl: "https://medlink-seven-tau.vercel.app/",
     repoUrl: "https://github.com/Levon7878/Medlink",
@@ -24,9 +32,13 @@ export const projects: Project[] = [
   {
     id: "brandaxis",
     title: "BrandAxis",
+    summary:
+      "AI-assisted Google Ads landing page with conversion-focused sections.",
     description:
       "An AI-assisted Google Ads landing page for a performance and positioning agency — structured around Google Ads landing page best practices with clear value proposition, social proof, strong CTAs and conversion-focused sections.",
     tags: ["AI", "Google Ads", "Landing Page", "HTML/CSS", "Vercel"],
+    preview: "/projects/brandaxis.png",
+    previewAccent: "#f97316",
     featured: true,
     liveUrl: "https://brandix-gamma.vercel.app/",
     repoUrl: "https://github.com/Levon7878/brandix",
@@ -34,9 +46,13 @@ export const projects: Project[] = [
   {
     id: "enterprise-shop",
     title: "Enterprise Shop",
+    summary:
+      "Premium e-commerce storefront with catalog, reviews and checkout flows.",
     description:
       "A premium tech e-commerce storefront with product catalog, category browsing, credit purchase flows, buyer reviews and FAQ — built as a responsive online store experience.",
     tags: ["React", "TypeScript", "Vite", "E-commerce", "Vercel"],
+    preview: "/projects/enterprise-shop.png",
+    previewAccent: "#22c55e",
     featured: true,
     liveUrl: "https://enterprise-shop-neon.vercel.app/",
     repoUrl: "https://github.com/Levon7878/ENTERPRISE-SHOP",
